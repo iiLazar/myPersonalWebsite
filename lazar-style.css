@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #1a1a1a;
+    font-family: "Calibri", Calibri, Arial, sans-serif;
+    color: #3f3f3f;
+}
+
+body,h1,h2,h3,h4,h5,h6,.w3-bar,button {
+    font-family: "Montserrat", sans-serif;
+}
+.w3-half img{
+    margin-bottom:-6px;margin-top:16px;cursor:pointer
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #cccccc;
+    font-size: 16px;
+    max-width: 1600px;
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color: #99d6ff;
+    cursor: pointer;
+}
+
+img {
+    max-height: 80vh;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: block;
+    height: 2.2em;
+}
+
+/* icons */
+i {
+    color: #1aa3ff;
+}
+
+footer {
+    padding: 50px;
+    padding-top: 150px;
+}
+
+/* Override */
+.aboutContent {
+    max-width: 1000px;
+}
+
+
+.accents {
+    color: #1aa3ff;
+}
+
+.sideLink {
+    color: #bfbfbf;
+    border-bottom: 3px solid black;
+}
+.hover-accent:hover {
+    color: white;
+    border-bottom: 3px solid #1aa3ff;
+}
+.resume:hover {
+    color: #99d6ff;
+}
+
+/* Override */
+#sidebarCloseBtn:hover, #modalCloseBtn:hover, #menuBurgerBtn:hover, w3-button:hover {
+    color: grey !important;
+    background-color: black !important;
+}
+
+
+/* About*/
+.roundImage {
+    border-radius: 50%;
+}
+
+#aboutImage {
+    margin-top: 50px;
+}
+
+
+/* Portfolio */
+.flexContainer {
+    overflow: hidden;
+}
+.portfolioDiv {
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+.portfolioDiv {
+    background-color: #262626;
+}
+.portfolioImageContainer {
+    opacity: 0.3;
+}
+.portfolioDiv:hover .portfolioImageContainer {
+    opacity: 1;
+    transition: opacity 0.35s;
+}
+
+
+/* Experience */
+.since {
+    color: #cccccc;
+    font-size: 0.5em;
+}
+
+.outcomes {
+    margin-top: 30px;
+}
+.outcomesList {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.employer {
+    margin-bottom: 30px;
+}
+.experienceNotLast {
+    margin-bottom: 80px;
+}
+
+
+/* Technology */
+#otherTechFirstRow td {
+    padding-top: 20px;
+    padding-right: 10em;
+}
+
+
+/* References */
+.referenceDiv {
+    padding-top: 4em;
+}
+.referenceProf {
+    padding-top: 2em;
+}
+
+
+
+/* Contact */
+.fa {
+    font-size: 1.3em;
+}
+
+#contactTable td{
+    padding: 5px;
+}
+#contactTable a {
+    color: #eee;
+    font-weight: bold;
+}
+
+
+/* Contact Personal Skills Technology*/
+.largify {
+    font-size: 1.1em;
+}
+
+
+@media (max-width: 600px) {
+    .portfolioImageContainer {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+/* COLOR:
+
+GREY #3f3f3f
+BLUE #1aa3ff
+-----------------------
+100% 		 #ffffff
+95% 		 #e6f5ff
+90% 		 #ccebff
+85% 		 #b3e0ff
+80% 		 #99d6ff
+75% 		 #80ccff
+70% 		 #66c2ff
+65% 		 #4db8ff
+60% 		 #33adff	
+
+55% 		 #1aa3ff
+		
+50% 		 #0099ff
+45% 		 #008ae6
+40% 		 #007acc
+35% 		 #006bb3
+30% 		 #005c99
+25% 		 #004d80
+20% 		 #003d66
+15% 		 #002e4d
+10% 		 #001f33
+ 5% 		 #000f1a
+ 0% 		 #000000
+
+
+*/

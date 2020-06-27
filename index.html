@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html id="top">
+<head>
+    <title>iLazar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lazar Ika - Resume, past projects and contact">
+    <meta name="keywords" content="Lazar,Ika,Lazar Ika,Java,MySQL,HTML,CSS,JavaScript,Spring,Hibernate,iLazar,ilazar,CV,Resume,Portfolio,Laki,Laza">
+    <meta name="author" content="iLazar">
+    <meta property="og:title" content="iLazar">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://lazar.neocities.org/">
+    <meta property="og:description" content="Lazar Ika - Resume, portfolio and contact">
+    <meta property="og:image" content="https://lazar.neocities.org/favicon200.png">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel=stylesheet href="lazar-style.css">
+    <link rel="icon" href="favicon.png">
+    <script defer src="lazar-script.js"></script>
+    <script defer src="lazar-script-footer.js"></script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155380197-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-155380197-1');
+</script>
+    <meta name="google-site-verification" content="Mfwe9pp41p9dsztrRaYodNwP6gvzYqUQUpNYs4im0z0" />
+    
+</head>
+    
+<body>
+    
+    
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding"
+     style="z-index:3;width:300px;font-weight:bold;" id="mySidebar">
+    <br>
+    <a id="sidebarCloseBtn" href="javascript:void(0)" onclick="w3_close()"
+     class="w3-button w3-hide-large w3-display-topright" style="font-size:28px">&times;</a>
+  
+    <div class="w3-container">
+        <h2 class="accents w3-padding-64"><b>Lazar Ika</b></h2>
+    </div>
+    
+    <div class="w3-bar-block">
+        <ul>
+            <li><a href="#about" onclick="w3_close()" class="sideLink w3-bar-item hover-accent">About me</a></li>
+            <li><a href="Lazar%20Ika%20Resume%20CV.pdf" target="_blank" onclick="w3_close()" class="resume sideLink w3-bar-item" title="PDF Resume, opens in new tab"><em>&nbsp;&nbsp;&nbsp;Download Resume</em></a></li>
+            <li><a href="#portfolio" onclick="w3_close()" class="sideLink w3-bar-item hover-accent">Portfolio</a></li>
+            <li><a href="#experience" onclick="w3_close()" class="sideLink w3-bar-item hover-accent">Experience</a></li>
+            <li><a href="#skills" onclick="w3_close()" class="sideLink w3-bar-item hover-accent">Skills</a></li>
+            <li><a href="#technology" onclick="w3_close()" class="sideLink w3-bar-item hover-accent">Technology</a></li>
+            <li><a href="#references" onclick="w3_close()" class="sideLink w3-bar-item hover-accent">References</a></li>
+            <li><a href="#personal" onclick="w3_close()" class="sideLink w3-bar-item hover-accent">Personal</a></li>
+            <li><a href="#contact" onclick="w3_close()" class="sideLink w3-bar-item hover-accent">Contact &amp; Profiles</a></li>
+        </ul>
+    </div>
+</nav>
+
+    
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding">
+  <a id="menuBurgerBtn" href="javascript:void(0)" class="w3-button w3-black w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Lazar Ika</span>
+</header>
+    
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    
+
+    
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+    <!-- Header -->
+    <div class="w3-container" style="margin-top:80px" id="showcase">
+        <h1 class="w3-jumbo"><b>Lazar Ika</b></h1>
+        <br>
+        <h3 style="margin-top: -2em; margin-bottom: 2em;">MPharm</h3>
+    </div>
+    
+    
+    <!-- About -->
+    <div id="about" class="aboutContent w3-container" style="margin-top:35px">
+        <h1 class="w3-xxxlarge accents"><b>About me</b></h1>
+        <hr style="width:50px;border:5px solid #1aa3ff" class="w3-round">
+        <p>Highly motivated, dedicated, optimal-solution-seeking, good‑spirited, inquisitive, forward‑thinking, fast and always learning pharmacist starting a career in software development. </p>
+    </div>
+
+    <div class="aboutContent w3-row-padding">
+        <div class="w3-half w3-margin-bottom">
+            <div class="w3-center">
+                <img id="aboutImage" class="roundImage" src="lazar-ika-small.jpg" style="width: 100%; max-width: 350px;" onclick="onClick(this)" alt="Lazar Ika" title="Lazar's Photo">
+            </div>
+        </div>
+        
+        <div class="w3-half">
+            <div>
+                <p> I have started learning programming about a year ago, and now I am completely hooked.</p>
+                <p> I speak <strong>Java</strong>, <strong>MySQL</strong>, <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong>, currently focusing on Java.</p>
+                <p>When it comes to frameworks, I am learning <strong>Spring</strong> and <strong>Hibernate</strong> at this time.</p>
+                <p>One of the benefits I bring to the table is proven experience in the workforce. I have a rich history of high productivity in very intellectually demanding, multidisciplinary positions, measurable outcomes of which are denoted in my <a href="Lazar%20Ika%20Resume%20CV.pdf" target="_blank">resume</a>.</p>
+                <p>I am quick to understand new concepts, which comes prepackaged with my innate drive to always learn. I&nbsp;am naturally trying to make myself, my work, my environment, and my overall impact - better.</p>
+            </div>
+        </div>
+        
+        <div class="content w3-container">
+            <p>I strongly feel people should have a positive impact on each other’s lives, and I&nbsp;am doing my best to live accordingly. I&nbsp;think people should be happy and satisfied with their work, and I&nbsp;believe that those positive feelings naturally lead to better and more creative outcomes.</p>
+            <p>Apart from playing with my keyboard, I love spending time with people I love, having meaningful connections, dancing, listening to <a href="https://www.youtube.com/channel/UCnYMOamNKLGVlJgRUbamveA" target="_blank">Impact Theory</a> and similar conversations, learning about philosophy, psychology, and sociology, and I love the time I get to spend in nature. I have shared <a href="https://flic.kr/s/aHsmNfnMBW" target="_blank">some of my photos here.</a></p>
+        </div>
+    </div>
+    
+    
+    
+    <!-- Portfolio -->
+    <div class="w3-container" id="portfolio" style="margin-top:75px">
+        <h1 class="w3-xxxlarge accents"><b>Portfolio</b></h1>
+        <hr style="width:50px;border:5px solid #1aa3ff" class="w3-round">
+        <p>Projects I had created along my learning path.</p>
+        <p>To see them in action, click the corresponding links, or view source code on <a href="https://github.com/iiLazar" target="_blank">GitHub</a>.</p>
+    </div>
+
+    <!-- Portfolio Items -->
+    <!-- First 3 Items -->
+    <div class="w3-row-padding flexContainer">
+        
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv">
+                <div class="portfolioImageContainer">
+                    <a href="projects/temperature/temperature-index.html" target="_blank">
+                        <img src="Projects/project-imgs/project%20img%20temperature%20main%20crop.jpg" alt="Dosage Calculator" style="width:100%">
+                    </a>
+                </div>
+                <div class="w3-container">
+                    <h3><a href="projects/temperature/temperature-index.html" target="_blank">Dosage Calculator</a></h3>
+                    <p class="w3-opacity">
+                        HTML CSS JavaScript<br>
+                        2020/01
+                    </p>
+                    <p>(Source code on demand)</p>
+                    <p>Calculate ibuprofen and paracetamol syrup dosage for children, based on input body weight, as quickly as possible.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv">
+                <div class="portfolioImageContainer">
+                    <a href="Projects/postit/index-todo-V4.0-arr.html" target="_blank">
+                        <img src="Projects/project-imgs/project%20img%20postit%20some%20notes%20crop.jpg" alt="Post-it Notes" style="width:100%">
+                    </a>
+                </div>
+                <div class="w3-container">
+                    <h3>
+                        <a href="Projects/postit/index-todo-V4.0-arr.html" target="_blank">Post-It Notes V4.0 [array]</a>
+                    </h3>
+                    <p class="w3-opacity">
+                        HTML CSS JavaScript<br>
+                        2019/12
+                    </p>
+                    <p><a href="https://github.com/iiLazar/Post-itNotes" target="_blank">Source code</a></p>
+                    <p>Post-it notes.</p>
+                    <p><strong>In the process of being extended into a full-stack project</strong></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv">
+                <div class="portfolioImageContainer">
+                    <a href="iLazar-Website-201912/index.html" target="_blank">
+                        <img src="Projects/project-imgs/project%20img%20website.jpg" alt="Post-it Notes" style="width:100%">
+                    </a>
+                </div>
+                <div class="w3-container">
+                    <h3>
+                        <a href="iLazar-Website-201912/index.html" target="_blank">First Personal Website</a>
+                    </h3>
+                    <p class="w3-opacity">
+                        HTML CSS JavaScript<br>
+                        2019/12
+                    </p>
+                    <p><a href="https://github.com/iiLazar/myFirstPersonalWebsite" target="_blank">Source code</a></p>
+                    <p>I wanted to make myself present online and showcase my work, practicing the craft I was learning.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- Second 3 Items -->
+    <br>
+    <br>
+    <div class="w3-row-padding flexContainer">
+        
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv">
+                <div class="portfolioImageContainer">
+                    <a href="Projects/numberguess/index-no.html" target="_blank">
+                        <img src="Projects/project-imgs/project%20img%20number%20guessing%20game%20number%20crop.jpg" alt="Post-it Notes" style="width:100%">
+                    </a>
+                </div>
+                <div class="w3-container">
+                    <h3>
+                        <a href="Projects/numberguess/index-no.html" target="_blank">Number Guessing Game</a>
+                    </h3>
+                    <p class="w3-opacity">
+                        HTML CSS JavaScript<br>
+                        2019/12
+                    </p>
+                    <p><a href="https://github.com/iiLazar/NumberGuessingGame" target="_blank">Source code</a></p>
+                    <p>Inspired by <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash" target="_blank">MDN</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv">
+                <div class="portfolioImageContainer">
+                    <a href="https://github.com/iiLazar/FizzBuzz/blob/master/FizzBuzz.java" target="_blank">
+                        <img src="Projects/project-imgs/project%20img%20fizzBuzz.jpg" alt="Post-it Notes" style="width:100%">
+                    </a>
+                </div>
+                <div class="w3-container">
+                    <h3>
+                        <a href="https://github.com/iiLazar/FizzBuzz/blob/master/FizzBuzz.java" target="_blank">FizzBuzz</a>
+                    </h3>
+                    <p class="w3-opacity">
+                        Java<br>
+                        2020/05
+                    </p>
+                    <p><a href="https://github.com/iiLazar/FizzBuzz/blob/master/FizzBuzz.java">Source code</a></p>
+                    <p>In case you might be wondering what I think about it. ;&#41;</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv">
+                <div class="portfolioImageContainer">
+                    <a href="https://www.codewars.com/users/iLazar/completed_solutions" target="_blank">
+                        <img src="Projects/project-imgs/project%20img%20codewars.jpg" alt="Post-it Notes" style="width:100%">
+                    </a>
+                </div>
+                <div class="w3-container">
+                    <h3>
+                        <a href="https://www.codewars.com/users/iLazar/completed_solutions" target="_blank">Codewars Solutions</a>
+                    </h3>
+                    <p class="w3-opacity">
+                        Java SQL<br>
+                        Since 2020/03
+                    </p>
+                    <p><a href="https://github.com/iiLazar/JavaCodeWars" target="_blank">Code (on Github)</a></p>
+                    <p>Playing with Java and SQL solving katas at Codewars.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- third 3 Items -->
+    <br>
+    <br>
+    <div class="w3-row-padding flexContainer">
+    
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv">
+                <div class="portfolioImageContainer">
+                    <a href="https://app.pluralsight.com/profile/iLazar" target="_blank">
+                        <img src="Projects/project-imgs/project%20img%20pluralsight%20java%20iq.jpg" alt="Pluralsight Java Proficiency IQ 153" style="width:100%">
+                    </a>
+                </div>
+                <div class="w3-container">
+                    <h3>
+                        <a href="https://app.pluralsight.com/profile/iLazar" target="_blank">Pluralsight Profile</a>
+                    </h3>
+                    <p class="w3-opacity">
+                        Java<br>
+                        2020/04
+                    </p>
+                    <p>I took Pluralsight's Java proficiency test prior to taking courses in April and got Java IQ 153, 52nd percetile.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv">
+                <div class="portfolioImageContainer">
+                    <a href="https://www.freecodecamp.org/ilazar" target="_blank">
+                        <img src="Projects/project-imgs/project%20img%20codecamp%20main.jpg" alt="Post-it Notes" style="width:100%">
+                    </a>
+                </div>
+                <div class="w3-container">
+                    <h3>
+                        <a href="https://www.freecodecamp.org/ilazar" target="_blank">freeCodeCamp Portfolio</a>
+                    </h3>
+                    <p class="w3-opacity">
+                        JavaScript<br>
+                        Since 2019/11
+                    </p>
+                    <p><a href="https://www.freecodecamp.org/ilazar" target="_blank">Solutions</a></p>
+                    <p>Solving freeCodeCamp challenges while learning JavaScript.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv">
+                <div class="portfolioImageContainer">
+                    <a href="#" target="_blank">
+                        <img src="Projects/project-imgs/project%20img%20website%202.jpg" alt="Post-it Notes" style="width:100%">
+                    </a>
+                </div>
+                <div class="w3-container">
+                    <h3>
+                        <a href="#" target="_blank">My Current Website</a>
+                    </h3>
+                    <p class="w3-opacity">
+                        HTML CSS JavaScript<br>
+                        2020/06
+                    </p>
+                    <p><a href="https://github.com/iiLazar/mySecondPersonalWebsite" target="_blank">Source code</a></p>
+                    <p>:&#41;</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    
+    
+    <!-- Experience -->
+    <div class="w3-container" id="experience" style="margin-top:75px">
+        <h1 class="w3-xxxlarge accents">
+            <b>Experience</b>
+             &nbsp;&nbsp;&nbsp; 
+            <span class="since">(Since 2014/07)</span>
+        </h1>
+        <hr style="width:50px;border:5px solid #1aa3ff" class="w3-round">
+        
+        <div id="pharmacyExperience" class="experienceNotLast">
+            <h2>
+                Pharmacy Manager &nbsp;&nbsp;&nbsp; <span style="font-size: 0.6em;">(Nov. 2015 – Aug. 2018)</span>
+                <br>Licensed Pharmacist, primary healthcare provider
+                 &nbsp;&nbsp;&nbsp; 
+                <span style="font-size: 0.6em;">(Nov.&nbsp;2015&nbsp;–&nbsp;Aug.&nbsp;2018)</span>
+            </h2>
+        
+            <h4 class="employer">@ <em>ZUA Farmanea, Dr.Max</em></h4>
+        
+            <p>Pharmacy management / stock management / professional correspondence / pricing / relations with Health center healthcare providers / documentation management / patient care and counseling, meeting individual needs / Rx drugs dispensing |</p>
+        
+            <div class="outcomes">
+                <strong>Outcomes:</strong>
+                <p class="outcomesList">
+                    - mean revenue increase of <b>33.69%</b> in 2017 (industry standard is 10-15%);
+                    <br> - above average stock parameters;
+                    <br> - six satisfied and motivated employees operating as a family;
+                    <br> - two employees mentored from their professional beginnings;
+                    <br> - around a thousand satisfied patients (clients);
+                    <br> - twelve physicians, Health center director and two RFZO employees satisfied with the cooperation with our pharmacy;
+                    <br> - satisfied regional manager and the institution headquarters;
+                </p>
+            </div>
+        </div>
+        
+        <hr style="width:50px;border:5px solid #1aa3ff" class="w3-round">
+        <div id="registryExperience" class="experienceNotLast">
+            <h2>
+                Article registry team member &nbsp;&nbsp;&nbsp; <span style="font-size: 0.6em;">(Jun.&nbsp;2018&nbsp;–&nbsp;Oct.&nbsp;2018)</span>
+            </h2>
+        
+            <h4>@ <em>Dr.Max</em></h4>
+        
+            <p>Article registry optimization (duplicates, names, codes, bar codes, categories…) / delivery registry mapping / software migration preparation / approximately 28&nbsp;000 articles |</p>
+        </div>
+        
+        <hr style="width:50px;border:5px solid #1aa3ff" class="w3-round">
+        <div id="chamberExperience">
+            <h2>
+                President of the Court of Honor, first-instance;
+                <br>Assembly member &nbsp;&nbsp;&nbsp; <span style="font-size: 0.6em;">(May&nbsp;2018&nbsp;–&nbsp;present)</span>
+            </h2>
+        
+            <h4>@ <em>Pharmaceutical Chamber of Serbia</em></h4>
+        </div>
+        
+    </div>
+
+    
+    
+        <!-- Skills -->
+    <div class="w3-container" id="skills" style="margin-top:75px">
+        <h1 class="w3-xxxlarge accents"><b>Skills</b></h1>
+        <hr style="width:50px;border:5px solid #1aa3ff" class="w3-round">
+        
+        <p class="largify">
+            Resourceful problem solving
+            <br>Top 1% IQ (according to MENSA)
+            <br>Technical aptitude
+            <br>Perpetual learning drive
+            <br>Interpersonal skills
+            <br>Humane leadership
+            <br>Written correspondence
+        </p>
+    </div>
+    
+    
+    <!-- Technology -->
+    <div class="w3-container" id="technology" style="margin-top:75px">
+        <h1 class="w3-xxxlarge accents"><b>Technology</b></h1>
+        <hr style="width:50px;border:5px solid #1aa3ff" class="w3-round">
+        
+        <table id="tachnologyTable" class="largify">
+            <tr>
+                <td>Java</td>
+                <td>Average</td>
+            </tr>            
+            <tr>
+                <td>MySQL</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>HMTL</td>
+                <td>Average</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Basic</td>
+            </tr>
+            <tr id="otherTechFirstRow">
+                <td>Connectur@</td>
+                <td>Excellent</td>
+            </tr>
+            <tr>
+                <td>asw:mercantis</td>
+                <td>Very good</td>
+            </tr>
+            <tr>
+                <td>MS Office
+                    <br>(Word, Excel, PowerPoint)</td>
+                <td>Very good</td>
+            </tr>
+        </table>
+    </div>
+
+    
+    
+    
+    
+    <!-- References -->
+    <div class="w3-container" id="references" style="margin-top:75px">
+        <h1 class="w3-xxxlarge accents"><b>References</b></h1>
+        <hr style="width:50px;border:5px solid #1aa3ff" class="w3-round">
+    </div>
+    
+    <div class="w3-row-padding flexContainer">
+        
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv referenceDiv">
+                <div class="w3-container">
+                    <h3>Milan Mihajlović, B.Eng.</h3>
+                    <p class="w3-opacity">
+                        Software Engineer at Amazon
+                    </p>
+                    <p><a href="mailto:ika.n.lazar@gmail.com" title="Direct contact information ommited for privacy reasons.">Contact me *</a></p>
+                    <p>My iMentor</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv referenceDiv referenceProf">
+                <div class="w3-container">
+                    <h3>Prof. Katarina Karljiković Rajić, PhD</h3>
+                    <p class="w3-opacity">
+                        Faculty of Pharmacy, Belgrade University
+                    </p>
+                    <p><a href="mailto:ika.n.lazar@gmail.com" title="Direct contact information ommited for privacy reasons.">Contact me *</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="portfolioDiv referenceDiv">
+                <div class="w3-container">
+                    <h3>Jelena Čolić, MPharm</h3>
+                    <p class="w3-opacity">
+                        Pharmacy manager at Dr.Max
+                    </p>
+                    <p><a href="mailto:ika.n.lazar@gmail.com" title="Direct contact information ommited for privacy reasons.">Contact me *</a></p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <br>
+    <div class="w3-row-padding flexContainer">
+        <div class="w3-col w3-margin-bottom">
+            <div class="portfolioDiv">
+                <div class="w3-container">
+                    <p class="w3-opacity">
+                        Contact information omitted for privacy reasons.<br><a href="mailto:ika.n.lazar@gmail.com">
+                        * Contact me directly</a> for my references' and iMentor's contact information.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <!-- Personal -->
+    <div class="w3-container" id="personal" style="margin-top:75px">
+        <h1 class="w3-xxxlarge accents"><b>Personal</b></h1>
+        <hr style="width:50px;border:5px solid #1aa3ff" class="w3-round">
+        
+        <p>These are my most tangible interests, hobbies, pastimes, passions:</p>
+        <p class="largify">
+            dancing,
+            <br>deep, menanigful conversations,
+            <br>philosophy, sociology, psychology,
+            <br>helping people,
+            <br>music,
+            <br>&quot;mature&quot; games (GTA: San Andreas, Test Drive Unlimited 2);
+            <br>and here are <a href="https://flic.kr/s/aHsmNfnMBW" target="_blank">some of my photos I love the most</a>.
+        </p>
+    </div>
+
+ 
+
+  
+    <!-- Contact -->
+    <div class="w3-container" id="contact" style="margin-top:75px">
+        <h1 class="w3-xxxlarge accents"><b>Contact</b></h1>
+        <hr style="width:50px;border:5px solid #1aa3ff" class="w3-round">
+        <p>Feel free to contact me!</p>
+
+        
+            <div class="largify">
+                <table id="contactTable">
+                    <tr>
+                        <td class="column1">
+                            <a href="mailto:ika.n.lazar@gmail.com">
+                                <i id="iconMail" class="icon material-icons">mail</i>
+                            </a>
+                        </td>
+                        <td class="rowFirst">
+                            <a href="mailto:ika.n.lazar@gmail.com">e-mail</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="column1">
+                            <a href="https://www.linkedin.com/in/lazar-ika-48645738/" target="_blank">
+                                <i class="icon fa fa-linkedin-square"></i>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.linkedin.com/in/lazar-ika-48645738/" target="_blank">LinkedIn</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="column1">
+                            <a href="https://lazar.neocities.org/" target="_blank">
+                                <i class="icon fa fa-globe"></i>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://lazar.neocities.org/" target="_blank">Website</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="column1">
+                            <a href="https://github.com/iiLazar" target="_blank">
+                                <i class="icon fa fa-github"></i>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://github.com/iiLazar" target="_blank">GitHub</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="column1">
+                            <a href="https://app.pluralsight.com/profile/iLazar" target="_blank">
+                                <i class="icon fa fa-play-circle-o"></i>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://app.pluralsight.com/profile/iLazar" target="_blank">Pluralsight</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="column1 rowLast">
+                            <a href="https://www.codewars.com/users/iLazar/completed_solutions" target="_blank">
+                                <i class="icon fa fa-resistance"></i>
+                            </a>
+                        </td>
+                        <td class="rowLast">
+                            <a href="https://www.codewars.com/users/iLazar/completed_solutions" target="_blank">Codewars</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+    </div>
+    
+    
+
+    
+    
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+        <span id="modalCloseBtn" class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption"></p>
+        </div>
+    </div>
+    
+    
+    
+    <!-- Footer -->
+    <footer>
+        <h3>
+            With so many thanks to
+            <a href="https://neocities.org/" target="_blank">Neocities</a>
+            and
+            <a href="https://www.w3schools.com/" target="_blank">W3 Schools</a>
+        </h3>
+        <p> iLazar 2020/06</p>    
+    </footer>
+    
+    
+<!-- End page content -->
+</div>
+    
+    
+    
+</body>
+</html>
