@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style-no.css">
+    <script defer src="script-no.js"></script>
+</head>
+<body>
+    <h1>Number Guessing Game 
+        <span id="thanks">[ Thanks,
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash" target="_blank"> Mozilla</a>&nbsp;]
+        </span>
+    </h1>
+    
+    <div class="contain clearfix">
+        <div class="enterNo clearfix">
+            <p>Welcome to number guessing game.</p>
+            <p>You have ten attempts to guess which number our super-smart computer had picked.</p>
+            <p>Enter a number from 1 to 100. [Integers only]</p>
+            
+            <input id="numIn" type="text" placeholder="0" onfocus="this.value=''" autofocus>
+            <button id="guessBtn">Click to submit answer</button>
+        
+        </div>
+        <div class="answer guesses clearfix" id="allGuesses">
+            <p>Your guesses so far:<span id="guesses"> 123465798</span></p>
+        </div>
+        <div class="answer correct clearfix" id="correct">
+            <p>Correct! Congratulations, you have found the correct answer!
+                <br>Here's a painfully green rectangle to celabrate! xD
+            </p>
+        </div>
+        <div class="answer wrong higher clearfix" id="higher">
+            <p>Wrong! That is not the right number.
+                <br>Correct number has <span class="accent">HIGHER</span> value.
+            </p>
+        </div>
+        <div class="answer wrong lower clearfix" id="lower">
+            <p>Wrong! That is not the right number.
+                <br>Correct number has <span class="accent">LOWER</span> value.
+            </p>
+        </div>
+        <div class="answer turns clearfix" id="turnsLeft">
+            <p>You have <span id="turns">#turn</span> more guesses left.
+                <br>Try again.</p>
+        </div>
+        <div class="answer turns clearfix" id="turnsNoMore">
+            <p>Sorry, you have no more guesses left.
+                <br>Start a new game.</p>
+        </div>
+        <div class="answer newGame turns clearfix" id="newGame">
+            <p><button id="newGameBtn">Click to start a new game</button></p>
+        </div>
+            
+    </div>
+    <footer>iLazar 2019/12</footer>
+</body>

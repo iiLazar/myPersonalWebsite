@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pediatric Dosage Calculator [Paracetamol and Ibuprofen syrup] | iLazar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ibuprofen dose calculator and paracetamol dose calculator (syrup and suppositories) for high body temperature, fever and pain in children. Easy, simple - just enter body weight. iLazar">
+    <meta name="keywords" content="lazar,neocities,temperature,temperatura,temp,sirup,syrup,ibuprofen,paracetamol,child,children,kid,kids,fever,flu,virus,infection,weight,pediatric,dosing,dosage,dose,ika">
+    <meta name="author" content="iLazar">
+    <meta property="og:title" content="iLazar: Pediatric Dosage Calculator">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Pediatric Dosage Calculator - ibuprofen syrup, paracetamol syrup">
+    <meta property="og:url" content="https://lazar.neocities.org/projects/temperature/temperature-index.html">
+    <meta property="og:image" content="https://lazar.neocities.org/favicon200.png">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
+    <link rel=stylesheet href="temperature-style.css">
+    <link rel="icon" href='../../favicon.png'>
+    <script defer src="temperature-script.js"></script>
+    <script defer src="../../lazar-script-footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155380197-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155380197-1');
+</script>
+
+    <meta name="google-site-verification" content="Mfwe9pp41p9dsztrRaYodNwP6gvzYqUQUpNYs4im0z0" />
+    
+</head>
+<body>
+    
+    <div class="language clearfix">
+        <ul>
+            <!--
+            <li><a href="temperature-index.html">english</a></li>
+            <li><a href="#" title="Stranica na srpskom jeziku ce kasnije biti pripremljena">српски</a></li>
+-->
+            <li> <button class="read">very important!</button></li>
+        </ul>
+    </div>
+    
+    <div class="important clearfix">
+        <p class="drPharm">
+            <strong>DO NOT administer any therapy to a child without previously consulting a medical doctor or a pharmacist!</strong>
+            <br>This page is primarily aimed to be used by healthcare professionals.
+        </p>
+        <p class="contact">
+            If you notice anything that could be improved on this website, please contact me!<br/>My email adress: <a href="mailto:iLazar.contact@gmail.com">iLazar.contact@gmail.com</a>.
+        </p>
+        
+        <div>
+            <ul>
+                <li>If you are using tablet to view this page, please use it in portrait mode.</li>
+                <li>1 teaspoon ~ 5 mL</li>
+                <li>1 tablespoon ~ 15 mL</li>
+                <li>Idealy - use a syringe, especially for smaller volumes</li>
+                <li>For children over <b>65kg</b> adult doses are usually suitable, BUT make sure you consult your doctor or your pharmacist.</li>
+            </ul>
+        </div>
+        <p class="literature">
+            <u>Literature</u>:<br/><br/>
+            Paracetamol<br/>
+            <a href="https://emedicine.medscape.com/article/2172407-overview" target="_blank">Medscape: Pediatric Acetaminophen Dosing</a><br/>
+            <a href="https://www.alims.gov.rs/ciril/files/lekovi/smpc/515-01-04519-16-001.pdf" target="_blank">Efferalgan supp. 150mg, SmPC, ALIMS</a><br/>
+            <a href="https://www.mydr.com.au/babies-pregnancy/paracetamol-for-children" target="_blank">myDr.com.au: Paracetamol for children</a><br/>
+            <a href="https://bpac.org.nz/2018/paracetamol.aspx" target="_blank">bpac.nz: Paracetamol Dosing for Children in Primary Care</a><br/>
+            <a href="https://www.healthnavigator.org.nz/tools/p/paracetamol-dose-calculator/" target="_blank">healthnavigator.org.nz: Paracetamol Dose Calculator</a><br/>
+            <br/>
+            Ibuprofen<br/>
+            <a href="https://emedicine.medscape.com/article/2172401-overview" target="_blank">Medscape: Pediatric Ibuprofen Oral Dosing</a><br/>
+            <a href="https://www.alims.gov.rs/ciril/files/lekovi/smpc/515-01-05079-16-001.pdf" target="_blank">Nurofen o sus 100mg/5mL, SmPC, ALIMS</a><br/>
+            <a href="https://www.healthnavigator.org.nz/tools/i/ibuprofen-paediatric-dose-calculator/" target="_blank">healthnavigator.org.nz: Ibuprofen Dose Calculator</a><br/>
+            <a href="https://www.healthychildren.org/English/safety-prevention/at-home/medication-safety/Pages/Ibuprofen-for-Fever-and-Pain.aspx" target="_blank">healthychildren.org: Ibuprofen Dosage Table for Fever and Pain</a><br/>
+            <br/>
+        </p>
+        
+        <p class="drPharm">
+            <strong>DO NOT administer any therapy to a child without previously consulting a medical doctor or a pharmacist!</strong>
+        </p>
+    </div>
+    
+    <h1 class="">
+        Ibuprofen, Paracetamol -<br>Pediatric Dosage Calculator
+    </h1>
+    
+    <div class="container clearfix sticky">
+        <div class="inputDiv">
+            <input type="number" id="weightInput" name="weightInput" placeholder="kg" onfocus="this.value=''" autofocus min="4" max="65">
+            <span class="unit">kg</span>
+            <div class="inlineDiv">weight</div>
+            <button class="calcBtn">Calculate</button>
+        </div>
+    </div>
+    
+    <div class="container clearfix">
+        <div class="result">
+            <table class="resultTable">
+                <tr class="tableHead">
+                    <th class="drug">Syrup</th>
+                    <th>Lowest<br>Dose</th>
+                    <th class="dash">-</th>
+                    <th>Highest<br>Dose</th>
+                    <th class="intervalHead">Repeat administration<br>(if needed)</th>
+                </tr>
+                <tr class="resultPholder">
+                    <td colspan="5">Enter weight</td>
+                </tr>
+                <tr class="paracetamol">
+                    <td class="drug"><span class="accent">Paracetamol</span><br>120mg/5mL</td>
+                    <td class="dMin">Dmin</td>
+                    <td class="dash">-</td>
+                    <td class="dMax">Dmax</td>
+                    <td class="interval">every <span class="accent">4 - 6</span> hours,<br>up to <span class="accent">4</span> times in 24h</td>
+                </tr>
+                <tr class="ibuBtn">
+                    <td colspan='5' class="drug">
+                        I have <span class="accent">ibuprofen</span>
+                        <button class="btn100"><span class="accent">100</span><span class="small">mg/5mL</span></button>
+                        or
+                        <button class="btn200"><span class="accent">200</span><span class="small">mg/5mL</span></button>
+                    </td>
+                </tr>
+                <tr class="ibu100">
+                    <td class="drug"><span class="accent">Ibuprofen</span><br><span class="ibu100blue">100</span>mg/5mL</td>
+                    <td class="dMin">Dmin</td>
+                    <td class="dash">-</td>
+                    <td class="dMax">Dmax</td>
+                    <td class="interval">every <span class="accent">6 - 8</span> hours,<br>up to <span class="accent">3</span> times in 24h</td>
+                </tr>
+                <tr class="ibu200">
+                    <td class="drug"><span class="accent">Ibuprofen</span><br><span class="ibu200red">200</span>mg/5mL</td>
+                    <td class="dMin">Dmin</td>
+                    <td class="dash">-</td>
+                    <td class="dMax">Dmax</td>
+                    <td class="interval">every <span class="accent">6 - 8</span> hours,<br>up to <span class="accent">3</span> times in 24h</td>
+                </tr>
+            </table>
+            
+            <div class="suppo clearfix">
+                <div class="suppGeneral">
+                    Paracetamol suppositories<br>(<b>click</b> if needed)
+                </div>
+                <div class="suppDrug">
+                    <div class="eff80">
+                        <span class="accent">Efferalgan</span> supp. <span class="accent">80</span>mg [4-6kg];<br>every <span class="accent">4 - 6</span> hours,<br>up to <span class="accent">4</span> times in 24h
+                    </div>
+                    <div class="eff150">
+                        <span class="accent">Efferalgan</span> supp. <span class="accent">150</span>mg [8-12kg];<br>every <span class="accent">4 - 6</span> hours,<br>up to <span class="accent">4</span> times in 24h
+                    </div>
+                    <div class="febricetSupp">
+                        <span class="accent">Febricet</span> supp. <span class="accent">200mg</span> [12-16kg];<br>every <span class="accent">4 - 6</span> hours,<br>up to <span class="accent">4</span> times in 24h
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <footer>
+        <div class="footerTxt"><a href="https://lazar.neocities.org/"><span class="footerCont">iLazar (Est. 2019/12)</span></a></div>
+    </footer>
+</body>
+</html>

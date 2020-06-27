@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: #151515;
+    font-family: "Calibri", Calibri, Arial, sans-serif;
+    color: forestgreen;
+}
+body {
+    background-color: black;
+    width: 85%;
+    margin: auto;
+    padding: 0 60px 30px;
+    font-size: 1.2em;
+}
+h1, footer {
+    background-color: rgba(10,10,10,0.7);
+}
+h1 {
+    position: sticky;
+    top: 0;
+    color: lawngreen;
+    font-size: 1.3em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #222;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#thanks {
+    color: forestgreen;
+    font-size: 0.6em;
+    margin-left: 50px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    font-size: 0.7em;
+    color: #aaa;
+    border-top: 1px solid #222;
+    padding: 15px 30px;
+    margin-bottom: -30px;
+}
+a, a:visited {
+    color: lawngreen;
+    
+}
+a:hover, a:active {
+    color: white;
+}
+.contain {
+    width: 75%;
+    margin: auto;
+    margin-top: 15px;
+}
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+input, button {
+    background-color: #222;
+    color: lawngreen;
+    border: 3px solid green;
+    border-radius: 5px;
+    padding-left: 10px;
+    float: left;
+}
+input:disabled {
+    background-color: green;
+}
+#numIn, #guessBtn {
+    height: 70px;
+    width: 110px;
+    margin: 20px 15px;
+}
+#numIn {
+    font-size: 2.2em;
+    font-weight: 900;
+    margin-left: 50px;
+}
+.answer {
+    display: none;
+}
+.guesses {
+    font-weight: 700;
+}
+#guesses, #turns, .accent {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: greenyellow;
+}
+.correct {
+    background-color: greenyellow;
+    font-size: 1.2em;
+    padding: 40px 100px;
+    text-align: center;
+}
+.wrong, #turnsNoMore {
+    border: 6px solid rgb(100,0,0);
+    border-radius: 6px;
+    padding: 10px 50px;
+}
+
+#turnsNoMore {
+    color: rgb(200,0,0);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#newGame {
+    display: none;
+    padding-bottom: 30px;
+}
+#newGameBtn {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
