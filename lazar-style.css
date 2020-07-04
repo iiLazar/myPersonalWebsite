@@ -148,6 +148,11 @@ footer {
     padding-top: 20px;
     padding-right: 10em;
 }
+@media (max-width: 500px) {
+    #technologyTable {
+        font-size: 4.2vw;
+    }
+}
 
 
 /* References */
