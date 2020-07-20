@@ -112,6 +112,10 @@ footer {
 .portfolioDiv {
     background-color: #262626;
 }
+.featured:hover {
+    color: white;
+    transition: color 0.35s;
+}
 .portfolioImageContainer {
     opacity: 0.3;
 }
