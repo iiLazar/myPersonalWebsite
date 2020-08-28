@@ -148,7 +148,7 @@ footer {
 
 
 /* Technology */
-#otherTechFirstRow td {
+.otherTechFirstRow td {
     padding-top: 20px;
     padding-right: 10em;
 }
